@@ -1,0 +1,39 @@
+﻿# VS / .NET
+.vs/
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.lock.json
+
+# Testes/Build
+TestResult*
+*.coverage
+*.coveragexml
+
+# Pacotes/artefatos
+*.nupkg
+packages/
+.nuget/
+artifacts/
+
+# IIS Express (cache local)
+applicationhost.config
+iisexpress.config
+
+# Logs e SO
+*.log
+Thumbs.db
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Web (se usar no futuro)
+node_modules/
+dist/
